@@ -9,6 +9,10 @@
 
   <name>datetime-converter</name>
 
+  <scm>
+    <developerConnection>scm:git:https://github.com/vdenisov/datetime-converter.git</developerConnection>
+  </scm>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <log4j.version>2.0-beta9</log4j.version>
@@ -109,6 +113,12 @@
           <source>1.7</source>
           <target>1.7</target>
         </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.4.1</version>
       </plugin>
 
     </plugins>
